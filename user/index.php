@@ -1,9 +1,10 @@
+<?php header('erro.php'); ?>
 <?php include('session.php'); ?>
 <?php include('header.php'); ?>
 <body>
 <?php include('navbar.php'); ?>
 <div class="container-fluid">
-	<div class="row">
+        <div class="row">
 		<?php include('mychat.php'); ?>
 		<?php include('chatlist.php'); ?>
 	</div>
