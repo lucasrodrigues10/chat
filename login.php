@@ -12,9 +12,9 @@
 	if($result->num_rows > 0){
             $row = $result->fetch_assoc();
             $_SESSION["id"] = $row["userid"];
-		  header('Location:/index.php');
+            header('Location:user/index.php');
 	}else{
-		echo "DIGITA O NEGÓCIO CERTO, SEU BURRO!";
+		header('Location: erro.php');
 	}
 
 	$conn->close();

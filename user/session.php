@@ -1,7 +1,7 @@
 <?php
 	session_start();
-	include('conn.php');
-	
+	include('../conn.php');
+
 	if (!isset($_SESSION['id']) ||(trim ($_SESSION['id']) == '')) {
         header('location:erro.php');
         exit();
@@ -16,5 +16,4 @@
 	}
 	
 	$user=$srow['username'];
-    
 ?>

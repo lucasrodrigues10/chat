@@ -1,4 +1,3 @@
-<?php header('erro.php'); ?>
 <?php include('session.php'); ?>
 <?php include('header.php'); ?>
 <body>
@@ -76,6 +75,7 @@ $(document).ready(function(){
 				}
 			});
 		
+
 	});
 	//
 	$(document).on('click', '.delete2', function(){
