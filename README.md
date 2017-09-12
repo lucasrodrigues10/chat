@@ -7,7 +7,7 @@ Site: http://chatlegal.site11.com/
 
 # [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Tiagoeem/embarcados-Diurno/tree/LucasRodrigues_14005565/awesome)
 
-[![Github-Release](https://img.shields.io/github/release/filoe/cscore.svg)](https://github.com/Tiagoeem/embarcados-Diurno/tree/LucasRodrigues_14005565/releases)
+[![Github-Release](https://img.shields.io/github/release/filoe/cscore.svg)](https://github.com/lucasrodrigues10/chat/releases)
 
 ## Descrição
 
