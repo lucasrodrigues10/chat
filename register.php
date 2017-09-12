@@ -17,7 +17,8 @@
   }
 
   if($situacaoU === ""){//insere se nao tiver iguais
-    $query = "INSERT INTO user (uname,password,username) VALUES ('$nome','$senha','$usuario');";
+    $senha = md5($senha);
+    $query = "INSERT INTO user (uname,password,username,access) VALUES ('$nome','$senha','$usuario',2);";
     if($conn->query($query)){
       $situacao = "Deu certo";
       header("Location: index.php");

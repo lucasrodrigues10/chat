@@ -11,9 +11,9 @@
     $senha = $_POST["chatpass"];
 
     $query = mysqli_query("INSERT INTO chatroom (chat_name, date_created, chat_password, userid) values ('$nome','$date','$senha', '$_SESSION[id]')");
-    $conn->query($query);
+    $conn->exec($query);
 
-    if ($conn->query($query) === TRUE) {
+    if ($conn->exec($query) === TRUE) {
         echo "New record created successfully";
     } else {
         echo "Error: " . $query . "<br>" . $conn->error;
