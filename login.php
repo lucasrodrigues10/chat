@@ -13,9 +13,19 @@
 	if($result->num_rows > 0){
             $row = $result->fetch_assoc();
             $_SESSION["id"] = $row["userid"];
-            header('Location:user/index.php');
+            ?>
+            <script>
+				window.alert('Logado com sucesso!');
+				window.location.replace("user/index.php");
+			</script>
+			<?php
 	}else{
-		header('Location: user/erro.php');
+		?>
+            <script>
+				window.alert('Login inválido, tente novamente!');
+				window.location.replace("index.php");
+			</script>
+		<?php
 	}
 
 	$conn->close();

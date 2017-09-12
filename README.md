@@ -36,14 +36,13 @@ Para a realização desse site, foi utilizado a magnifica técnica do [EXtreme G
 
 ## Defeitos:
 
- Quando cria sala precisa sair e entrar para aparecer o nome e botoes<br>
- Login valido nao aparece mensagem de sucesso<br>
- Login invalido nao parece mensagem de erro<br>
- Formatacao da mensagem no chat provavelmente não está igual ao do luiz <br>
- Nao é possível entrar em sala sem senha<br>
+Quando cria sala precisa sair e entrar para aparecer o nome e botoes<br>
+<strike>Login valido nao aparece mensagem de sucesso</strike><br>
+<strike>Login invalido nao parece mensagem de erro</strike><br>
+Formatacao da mensagem no chat provavelmente não está igual ao do luiz <br>
+Nao é possível entrar em sala sem senha<br>
  
 ## Sprints:
 
 * ** 1º Começar o site**
-
 * ** 2º Terminar o site **
