@@ -40,6 +40,7 @@ Para a realização desse site, foi utilizado a magnifica técnica do [EXtreme G
  Login valido nao aparece mensagem de sucesso<br>
  Login invalido nao parece mensagem de erro<br>
  Formatacao da mensagem no chat provavelmente não está igual ao do luiz <br>
+ Nao é possível entrar em sala sem senha<br>
  
 ## Sprints:
 
