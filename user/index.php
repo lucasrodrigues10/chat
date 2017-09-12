@@ -48,7 +48,7 @@ $(document).ready(function(){
 		}
 		else{
 			$.ajax({
-				url:"addmember.php",
+				url:"addnewmember.php",
 				method:"POST",
 				data:{
 					id: cid,
