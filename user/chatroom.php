@@ -1,7 +1,7 @@
 <?php include('session.php'); ?>
 <?php include('header.php'); ?>
 <?php
-	$id=$_REQUEST['id'];
+	$id = $_REQUEST['id'];
 	
 	$chatq=mysqli_query($conn,"select * from chatroom where chatroomid='$id'");
 	$chatrow=mysqli_fetch_array($chatq);

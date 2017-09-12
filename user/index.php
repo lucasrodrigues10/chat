@@ -74,8 +74,6 @@ $(document).ready(function(){
 				window.location.href='chatroom.php?id='+data;
 				}
 			});
-		
-
 	});
 	//
 	$(document).on('click', '.delete2', function(){

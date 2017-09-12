@@ -4,19 +4,18 @@
     
     session_start();
     
-
-    $nome = $_POST["chatname"];
+    $name = $_POST["chatname"];
+    $password = $_POST["chatpass"];
     date_default_timezone_set('America/Sao_Paulo');
     $date = date('Y-m-d H:i');
-    $senha = $_POST["chatpass"];
+    $id = $_SESSION['id'];
 
-    $query = mysqli_query("INSERT INTO chatroom (chat_name, date_created, chat_password, userid) values ('$nome','$date','$senha', '$_SESSION[id]')");
-    $conn->exec($query);
+    $query = ("INSERT INTO chatroom (chat_name, date_created, chat_password, userid) values ('$name','$date','$password', '$id')"); 
 
-    if ($conn->exec($query) === TRUE) {
-        echo "New record created successfully";
+    if ($conn->query($query) === TRUE) {
+        echo "Tudo certo na query";
     } else {
-        echo "Error: " . $query . "<br>" . $conn->error;
+        echo "Error " . $conn->error;
     }
 
     $conn->close();
