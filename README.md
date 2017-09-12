@@ -34,6 +34,12 @@ Para a realização desse site, foi utilizado a magnifica técnica do [EXtreme G
 <strike>Adicionar membros à sala de bate-papo existente: addmember.php</strike><br>
 Mostrar conversa e enviar mensagens: fetch_chat.php e send_message.php<br>
 
+## Defeitos:
+
+ Quando cria sala precisa sair e entrar para aparecer o nome e botoes<br>
+ Login valido nao aparece mensagem de sucesso<br>
+ Login invalido nao parece mensagem de erro<br>
+ 
 ## Sprints:
 
 * ** 1º Começar o site**
