@@ -1,4 +1,6 @@
 <?php include('session.php'); ?>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
 <?php include('header.php'); ?>
 <body>
 <?php include('navbar.php'); ?>
