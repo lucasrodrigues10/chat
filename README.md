@@ -1,4 +1,4 @@
-# Chat Legal - O novo chat da uol #
+# Chat Legal - Melhor que o Chat da Uol #
 Site: http://chatlegal.site11.com/
 
 <p align="center">
@@ -36,6 +36,7 @@ Para a realização desse site, foi utilizado a magnifica técnica do [EXtreme G
 
 ## Defeitos:
 
+Usuario comum entra em sala de admin
 Quando cria sala precisa sair e entrar para aparecer o nome e botoes<br>
 Formatacao da mensagem no chat provavelmente não está igual ao do luiz <br>
 <strike>Login valido nao aparece mensagem de sucesso</strike><br>
