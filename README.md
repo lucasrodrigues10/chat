@@ -37,7 +37,6 @@ Para a realização desse site, foi utilizado a magnifica técnica do [EXtreme G
 ## Defeitos:
 
 (Admin(access=1) e Usuário(access=2) não tem diferenças)<br>
-Quando cria sala precisa sair e entrar para aparecer o nome e botoes<br>
 <strike>Login valido nao aparece mensagem de sucesso</strike><br>
 <strike>Login invalido nao parece mensagem de erro</strike><br>
 <strike>Nao é possível entrar em sala sem senha - Aparentemente tem que ter acesso 2</strike><br>
@@ -45,5 +44,5 @@ Quando cria sala precisa sair e entrar para aparecer o nome e botoes<br>
 
 ## Sprints:
 
-<strike>* ** 1º Começar o site**</strike>
-* ** 2º Terminar o site **
+<strike>** 1º Começar o site**</strike><br>
+<strike>** 2º Terminar o site**</strike><br>
